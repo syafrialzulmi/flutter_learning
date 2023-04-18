@@ -1,4 +1,15 @@
 {
     "openai_key": "",
-    "modules": []
+    "modules": [
+        "home",
+        "online_class/ui_basic",
+        "online_class/ui_pro",
+        "online_class/flutter_book/elogin1",
+        "online_class/flutter_book/elogin2",
+        "online_class/flutter_book/elogin3",
+        "online_class/flutter_book/elogin4",
+        "online_class/flutter_book/elogin5",
+        "online_class/flutter_book/esignup1",
+        "online_class/flutter_book/esignup2"
+    ]
 }
