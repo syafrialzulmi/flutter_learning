@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_learning/core.dart';
-import '../controller/elogin1_controller.dart';
 
 class Elogin1View extends StatefulWidget {
   const Elogin1View({Key? key}) : super(key: key);
@@ -11,13 +10,13 @@ class Elogin1View extends StatefulWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       body: SingleChildScrollView(
+        physics: const NeverScrollableScrollPhysics(),
         child: Container(
-          padding: const EdgeInsets.symmetric(
-            horizontal: 30,
-            vertical: 50,
-          ),
+          padding: const EdgeInsets.all(30),
+          height: MediaQuery.of(Get.currentContext).size.height,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
