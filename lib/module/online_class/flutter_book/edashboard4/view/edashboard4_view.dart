@@ -14,7 +14,7 @@ class Edashboard4View extends StatefulWidget {
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         backgroundColor: Colors.green,
-        child: const Icon(Icons.add_circle),
+        child: const Icon(Icons.add),
       ),
       body: SingleChildScrollView(
         child: Column(
