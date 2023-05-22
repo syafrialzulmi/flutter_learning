@@ -15,4 +15,5 @@
         "editor.wordBasedSuggestions": false,
         "editor.defaultFormatter": "Dart-Code.dart-code"
     },
+    "java.configuration.updateBuildConfiguration": "interactive",
 }
